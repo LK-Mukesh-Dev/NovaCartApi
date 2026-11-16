@@ -10,4 +10,19 @@
     <ProjectReference Include="..\NovaCart.Identity.Domain\NovaCart.Identity.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Authentication\Login\" />
+    <Folder Include="Features\Authentication\ForgotPassword\" />
+    <Folder Include="Features\Authentication\RefreshToken\" />
+    <Folder Include="Features\Authentication\Register\" />
+    <Folder Include="Features\Roles\" />
+    <Folder Include="Features\Users\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Interfaces\Persistence\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
 </Project>
