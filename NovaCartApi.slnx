@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/building-blocks/" />
+  <Folder Name="/docker/" />
+  <Folder Name="/docs/" />
+  <Folder Name="/gateway/" />
+  <Folder Name="/infrastructure/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Identity/">
+    <Project Path="NovaCart.Identity.Api/NovaCart.Identity.Api.csproj" Id="4f51835c-a4c7-439d-90b1-8c8232887a2f" />
+    <Project Path="NovaCart.Identity.Application/NovaCart.Identity.Application.csproj" Id="275a1682-10f5-4897-85b4-865d356e0610" />
+    <Project Path="NovaCart.Identity.Domain/NovaCart.Identity.Domain.csproj" Id="1a25e2d8-77dc-45e6-a79d-926f88639535" />
+    <Project Path="NovaCart.Identity.Infrastructure/NovaCart.Identity.Infrastructure.csproj" Id="42ca6200-33e0-4a6b-a338-b099b0daef70" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
