@@ -12,5 +12,11 @@
     <Project Path="NovaCart.Identity.Domain/NovaCart.Identity.Domain.csproj" Id="1a25e2d8-77dc-45e6-a79d-926f88639535" />
     <Project Path="NovaCart.Identity.Infrastructure/NovaCart.Identity.Infrastructure.csproj" Id="42ca6200-33e0-4a6b-a338-b099b0daef70" />
   </Folder>
+  <Folder Name="/src/MicroServices/User/">
+    <Project Path="NovaCart.User.Api/NovaCart.User.Api.csproj" Id="f845ff0c-eadb-4cf7-80cb-d6549fdf7bb7" />
+    <Project Path="NovaCart.User.Application/NovaCart.User.Application.csproj" Id="b774d8e4-5c2a-4fd5-9b13-7b51b11cde66" />
+    <Project Path="NovaCart.User.Domain/NovaCart.User.Domain.csproj" Id="2738d71d-3b71-4271-94b6-4638ab29733b" />
+    <Project Path="NovaCart.User.Infrastructure/NovaCart.User.Infrastructure.csproj" Id="0edc3a3e-64a7-40c8-b052-c29bb334c3ed" />
+  </Folder>
   <Folder Name="/tests/" />
 </Solution>
