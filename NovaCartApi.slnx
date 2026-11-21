@@ -6,6 +6,12 @@
   <Folder Name="/infrastructure/" />
   <Folder Name="/src/" />
   <Folder Name="/src/MicroServices/" />
+  <Folder Name="/src/MicroServices/Cart/">
+    <Project Path="NovaCart.Cart.Api/NovaCart.Cart.Api.csproj" Id="eab39408-5c0c-40fc-ac8b-d62646b7d61a" />
+    <Project Path="NovaCart.Cart.Application/NovaCart.Cart.Application.csproj" Id="b4b2804b-da0a-471b-93fd-d12c32a7041d" />
+    <Project Path="NovaCart.Cart.Domain/NovaCart.Cart.Domain.csproj" Id="b2e7ea6d-8ddb-483d-acd8-8b8826193b83" />
+    <Project Path="NovaCart.Cart.Infrastructure/NovaCart.Cart.Infrastructure.csproj" Id="c841b281-a166-47c4-b248-022fc2981376" />
+  </Folder>
   <Folder Name="/src/MicroServices/Identity/">
     <Project Path="NovaCart.Identity.Api/NovaCart.Identity.Api.csproj" Id="4f51835c-a4c7-439d-90b1-8c8232887a2f" />
     <Project Path="NovaCart.Identity.Application/NovaCart.Identity.Application.csproj" Id="275a1682-10f5-4897-85b4-865d356e0610" />
