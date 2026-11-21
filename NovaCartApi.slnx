@@ -18,6 +18,12 @@
     <Project Path="NovaCart.Inventory.Domain/NovaCart.Inventory.Domain.csproj" Id="4e068bc2-8a77-4d5d-adc4-7e7205623b52" />
     <Project Path="NovaCart.Inventory.Infrastructure/NovaCart.Inventory.Infrastructure.csproj" Id="a9549f01-47d6-4041-ba07-c10dfd5fe341" />
   </Folder>
+  <Folder Name="/src/MicroServices/Order/">
+    <Project Path="NovaCart.Order.Api/NovaCart.Order.Api.csproj" Id="9ecdd893-3451-48e1-90ea-546261f1a62b" />
+    <Project Path="NovaCart.Order.Application/NovaCart.Order.Application.csproj" Id="d6387a08-2917-4759-8c78-983ae1962905" />
+    <Project Path="NovaCart.Order.Domain/NovaCart.Order.Domain.csproj" Id="118e2103-c3c5-4723-b996-a77b1ffd498f" />
+    <Project Path="NovaCart.Order.Infrastructure/NovaCart.Order.Infrastructure.csproj" Id="499410ce-de60-406e-b4c5-57dc4ab1e34b" />
+  </Folder>
   <Folder Name="/src/MicroServices/Product/">
     <Project Path="NovaCart.Product.Api/NovaCart.Product.Api.csproj" Id="9ad358dc-d19f-4ae9-90df-a859b5cf238b" />
     <Project Path="NovaCart.Product.Application/NovaCart.Product.Application.csproj" Id="1e021009-2335-41a8-986b-7442d9c77089" />
