@@ -26,6 +26,9 @@
   </Folder>
   <Folder Name="/src/MicroServices/Notification/">
     <Project Path="NovaCart.Notification.Api/NovaCart.Notification.Api.csproj" Id="4e99d13f-e65d-48bc-ac61-fe8e8e00ef98" />
+    <Project Path="NovaCart.Notification.Application/NovaCart.Notification.Application.csproj" Id="9b8f124f-5c24-401d-9a11-074ab5df6865" />
+    <Project Path="NovaCart.Notification.Domain/NovaCart.Notification.Domain.csproj" Id="fe577ff6-4f73-4d7a-a552-975142aa20b7" />
+    <Project Path="NovaCart.Notification.Infrastructure/NovaCart.Notification.Infrastructure.csproj" Id="f42c0cd9-57b3-4d75-862b-fce6f078b0ec" />
   </Folder>
   <Folder Name="/src/MicroServices/Order/">
     <Project Path="NovaCart.Order.Api/NovaCart.Order.Api.csproj" Id="9ecdd893-3451-48e1-90ea-546261f1a62b" />
