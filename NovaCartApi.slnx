@@ -55,6 +55,13 @@
     <Project Path="NovaCart.User.Infrastructure/NovaCart.User.Infrastructure.csproj" Id="0edc3a3e-64a7-40c8-b052-c29bb334c3ed" />
   </Folder>
   <Folder Name="/tests/" />
+  <Folder Name="/tests/Cart/">
+    <Project Path="NovaCart.Cart.Api.IntegrationTests/NovaCart.Cart.Api.IntegrationTests.csproj" Id="da919fbb-38b2-46a9-afbf-88d79f3eca5c" />
+    <Project Path="NovaCart.Cart.Api.UnitTests/NovaCart.Cart.Api.UnitTests.csproj" Id="936b6496-e1d0-43ac-b4bd-390020528bc6" />
+    <Project Path="NovaCart.Cart.Application.UnitTests/NovaCart.Cart.Application.UnitTests.csproj" Id="f05f024b-38a0-4cf8-b4ae-0980df5f6ae8" />
+    <Project Path="NovaCart.Cart.Domain.UnitTests/NovaCart.Cart.Domain.UnitTests.csproj" Id="78d5378d-391c-4355-b502-aa92d4640154" />
+    <Project Path="NovaCart.Cart.Infrastructure.UnitTests/NovaCart.Cart.Infrastructure.UnitTests.csproj" Id="8a774b46-5c71-4557-93a7-1df9d33fc761" />
+  </Folder>
   <Folder Name="/tests/Identity/">
     <Project Path="NovaCart.Identity.Api.IntegrationTests/NovaCart.Identity.Api.IntegrationTests.csproj" Id="7f0d6fee-d689-4b6d-8e20-00736db6536c" />
     <Project Path="NovaCart.Identity.Api.UnitTests/NovaCart.Identity.Api.UnitTests.csproj" Id="c280b5f9-b456-423a-ba12-7c323beca848" />
@@ -62,7 +69,41 @@
     <Project Path="NovaCart.Identity.Domain.UnitTests/NovaCart.Identity.Domain.UnitTests.csproj" Id="7ca77a26-4cf6-4ba3-a566-13e0f32a33fe" />
     <Project Path="NovaCart.Identity.Infrastructure.UnitTests/NovaCart.Identity.Infrastructure.UnitTests.csproj" Id="b5ad6938-44b1-497b-9770-90b74b8781ee" />
   </Folder>
-  <Folder Name="/tests/Product/" />
+  <Folder Name="/tests/Inventory/">
+    <Project Path="NovaCart.Inventory.Api.IntegrationTests/NovaCart.Inventory.Api.IntegrationTests.csproj" Id="4ef688da-9342-4c4f-a0e8-8af8b92c7c9a" />
+    <Project Path="NovaCart.Inventory.Api.UnitTests/NovaCart.Inventory.Api.UnitTests.csproj" Id="9920772d-0e70-4adf-85ca-54a7f477bda2" />
+    <Project Path="NovaCart.Inventory.Application.UnitTests/NovaCart.Inventory.Application.UnitTests.csproj" Id="ae5b7f49-eb7e-4ab5-91cc-6412eba18e9e" />
+    <Project Path="NovaCart.Inventory.Domain.UnitTests/NovaCart.Inventory.Domain.UnitTests.csproj" Id="9e6e0d7a-0fd6-48d5-b9b6-fa3f7c79ec4e" />
+    <Project Path="NovaCart.Inventory.Infrastructure.UnitTests/NovaCart.Inventory.Infrastructure.UnitTests.csproj" Id="470aadc6-a2b3-4c04-8ad0-7fa95f8c8c2e" />
+  </Folder>
+  <Folder Name="/tests/Notification/">
+    <Project Path="NovaCart.Notification.Api.IntegrationTests/NovaCart.Notification.Api.IntegrationTests.csproj" Id="1dcec2bb-af1a-4bb6-8381-941ac286f1f5" />
+    <Project Path="NovaCart.Notification.Api.UnitTests/NovaCart.Notification.Api.UnitTests.csproj" Id="8bbc9cb9-5c6b-45c6-b106-7b626c9e3ca4" />
+    <Project Path="NovaCart.Notification.Application.UnitTests/NovaCart.Notification.Application.UnitTests.csproj" Id="fb3e1c47-39d6-4d82-8a85-4ba8baf874a1" />
+    <Project Path="NovaCart.Notification.Domain.UnitTests/NovaCart.Notification.Domain.UnitTests.csproj" Id="2b1537e6-07f3-4b83-90a1-3b8bd88d26a9" />
+    <Project Path="NovaCart.Notification.Infrastructure.UnitTests/NovaCart.Notification.Infrastructure.UnitTests.csproj" Id="e6a821cd-e716-4e9c-80e3-2a2575d126c1" />
+  </Folder>
+  <Folder Name="/tests/Order/">
+    <Project Path="NovaCart.Order.Api.IntegrationTests/NovaCart.Order.Api.IntegrationTests.csproj" Id="a4fb846a-bc26-4013-8db7-0e6f99b7fa02" />
+    <Project Path="NovaCart.Order.Api.UnitTests/NovaCart.Order.Api.UnitTests.csproj" Id="6f0273e6-084a-4cd4-89ff-62349da6eab3" />
+    <Project Path="NovaCart.Order.Application.UnitTests/NovaCart.Order.Application.UnitTests.csproj" Id="559f3a28-85ac-47ef-baac-a3a212687997" />
+    <Project Path="NovaCart.Order.Domain.UnitTests/NovaCart.Order.Domain.UnitTests.csproj" Id="e4f705f8-3a7d-4245-b925-aa4e9f73318c" />
+    <Project Path="NovaCart.Order.Infrastructure.UnitTests/NovaCart.Order.Infrastructure.UnitTests.csproj" Id="d6f2d5fa-bc9f-4b41-acbb-f248384eacd9" />
+  </Folder>
+  <Folder Name="/tests/Payment/">
+    <Project Path="NovaCart.Payment.Api.IntegrationTests/NovaCart.Payment.Api.IntegrationTests.csproj" Id="e0ae71f1-917f-47ae-b7f8-b5e5e21f42e6" />
+    <Project Path="NovaCart.Payment.Api.UnitTests/NovaCart.Payment.Api.UnitTests.csproj" Id="783e7626-4217-4637-b4d4-b5cc44035fa5" />
+    <Project Path="NovaCart.Payment.Application.UnitTests/NovaCart.Payment.Application.UnitTests.csproj" Id="b4902409-26aa-4cf2-b40c-226eb1a06b8a" />
+    <Project Path="NovaCart.Payment.Domain.UnitTests/NovaCart.Payment.Domain.UnitTests.csproj" Id="8c3270d2-ba3c-40ef-a75a-09e5eaafa170" />
+    <Project Path="NovaCart.Payment.Infrastructure.UnitTests/NovaCart.Payment.Infrastructure.UnitTests.csproj" Id="ba0dd507-61e8-4368-afd7-30d9c3b4e486" />
+  </Folder>
+  <Folder Name="/tests/Product/">
+    <Project Path="NovaCart.Product.Api.IntegrationTests/NovaCart.Product.Api.IntegrationTests.csproj" Id="9447ec0f-2646-4f5a-bd67-af35c58904d2" />
+    <Project Path="NovaCart.Product.Api.UnitTests/NovaCart.Product.Api.UnitTests.csproj" Id="cd81fe54-32aa-48e1-b99c-7cfed6483aa5" />
+    <Project Path="NovaCart.Product.Application.UnitTests/NovaCart.Product.Application.UnitTests.csproj" Id="9621289e-4203-4e4d-9a6a-df4e18de7bea" />
+    <Project Path="NovaCart.Product.Domain.UnitTests/NovaCart.Product.Domain.UnitTests.csproj" Id="9a6aeabc-8de1-4fbb-9a8a-3f75c2f43025" />
+    <Project Path="NovaCart.Product.Infrastructure.UnitTests/NovaCart.Product.Infrastructure.UnitTests.csproj" Id="89c2e04c-aa1c-452a-8356-d6f65a3b4aca" />
+  </Folder>
   <Folder Name="/tests/User/">
     <Project Path="NovaCart.User.Api.IntegrationTests/NovaCart.User.Api.IntegrationTests.csproj" Id="c4ffddb4-6710-42a0-8769-c8dd56fff192" />
     <Project Path="NovaCart.User.Api.UnitTests/NovaCart.User.Api.UnitTests.csproj" Id="5e4a6f3a-3ba0-42dc-9690-5facb042bf1f" />
