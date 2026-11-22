@@ -14,4 +14,11 @@
     <ProjectReference Include="..\NovaCart.Order.Application\NovaCart.Order.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>
