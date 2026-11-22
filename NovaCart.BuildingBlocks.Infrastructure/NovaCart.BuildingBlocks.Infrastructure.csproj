@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NovaCart.BuildingBlocks.Application\NovaCart.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\NovaCart.BuildingBlocks.Domain\NovaCart.BuildingBlocks.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

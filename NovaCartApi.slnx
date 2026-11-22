@@ -1,10 +1,14 @@
 <Solution>
-  <Folder Name="/building-blocks/" />
   <Folder Name="/docker/" />
   <Folder Name="/docs/" />
-  <Folder Name="/gateway/" />
   <Folder Name="/infrastructure/" />
   <Folder Name="/src/" />
+  <Folder Name="/src/building-blocks/">
+    <Project Path="NovaCart.BuildingBlocks.Application/NovaCart.BuildingBlocks.Application.csproj" Id="5b54bea4-1a26-4688-879d-3113cb3a703f" />
+    <Project Path="NovaCart.BuildingBlocks.Domain/NovaCart.BuildingBlocks.Domain.csproj" Id="03e86c97-3d5e-4436-8e2e-74834a759429" />
+    <Project Path="NovaCart.BuildingBlocks.Infrastructure/NovaCart.BuildingBlocks.Infrastructure.csproj" Id="568b0f25-d2f4-463c-8ade-0004bcbdc4f1" />
+  </Folder>
+  <Folder Name="/src/gateway/" />
   <Folder Name="/src/MicroServices/" />
   <Folder Name="/src/MicroServices/Cart/">
     <Project Path="NovaCart.Cart.Api/NovaCart.Cart.Api.csproj" Id="eab39408-5c0c-40fc-ac8b-d62646b7d61a" />
