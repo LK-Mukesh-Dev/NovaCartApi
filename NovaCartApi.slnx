@@ -8,7 +8,9 @@
     <Project Path="NovaCart.BuildingBlocks.Domain/NovaCart.BuildingBlocks.Domain.csproj" Id="03e86c97-3d5e-4436-8e2e-74834a759429" />
     <Project Path="NovaCart.BuildingBlocks.Infrastructure/NovaCart.BuildingBlocks.Infrastructure.csproj" Id="568b0f25-d2f4-463c-8ade-0004bcbdc4f1" />
   </Folder>
-  <Folder Name="/src/gateway/" />
+  <Folder Name="/src/gateway/">
+    <Project Path="NovaCart.ApiGateway/NovaCart.ApiGateway.csproj" Id="4d72db34-5476-45f9-a087-9251f0ae456b" />
+  </Folder>
   <Folder Name="/src/MicroServices/" />
   <Folder Name="/src/MicroServices/Cart/">
     <Project Path="NovaCart.Cart.Api/NovaCart.Cart.Api.csproj" Id="eab39408-5c0c-40fc-ac8b-d62646b7d61a" />

@@ -10,4 +10,15 @@
     <ProjectReference Include="..\NovaCart.BuildingBlocks.Domain\NovaCart.BuildingBlocks.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\CQRS\" />
+    <Folder Include="Abstractions\Messaging\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Models\" />
+    <Folder Include="Results\" />
+    <Folder Include="Validation\" />
+  </ItemGroup>
+
 </Project>

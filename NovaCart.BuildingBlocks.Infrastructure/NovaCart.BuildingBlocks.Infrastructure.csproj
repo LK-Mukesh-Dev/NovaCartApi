@@ -11,4 +11,18 @@
     <ProjectReference Include="..\NovaCart.BuildingBlocks.Domain\NovaCart.BuildingBlocks.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Caching\Redis\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Messaging\Kafka\" />
+    <Folder Include="Messaging\Outbox\" />
+    <Folder Include="Messaging\Inbox\" />
+    <Folder Include="Persistence\Interceptors\" />
+    <Folder Include="Persistence\Extensions\" />
+    <Folder Include="Resilience\" />
+    <Folder Include="Telemetry\Logging\" />
+    <Folder Include="Telemetry\Metrics\" />
+    <Folder Include="Telemetry\Tracing\" />
+  </ItemGroup>
+
 </Project>
