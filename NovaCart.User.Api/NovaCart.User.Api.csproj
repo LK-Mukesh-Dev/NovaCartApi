@@ -10,4 +10,11 @@
     <ProjectReference Include="..\NovaCart.User.Application\NovaCart.User.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>
